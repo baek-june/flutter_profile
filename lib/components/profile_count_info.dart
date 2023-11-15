@@ -18,10 +18,10 @@ class ProfileCountInfo extends StatelessWidget {
   }
 
   Widget _buildInfo(String count, String title) {
-    return SizedBox();
+    return const SizedBox();
   }
 
   Widget _buildLine() {
-    return SizedBox();
+    return const SizedBox();
   }
 }

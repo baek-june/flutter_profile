@@ -7,19 +7,25 @@ class ProfileHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        SizedBox(width: 20.0),
+        const SizedBox(width: 20.0),
         _buildHeaderAvatar(),
-        SizedBox(width: 20.0),
+        const SizedBox(width: 20.0),
         _buildHeaderProfile(),
       ],
     );
   }
 
   Widget _buildHeaderAvatar() {
-    return SizedBox();
+    return const SizedBox(
+      width: 100.0,
+      height: 100.0,
+      child: CircleAvatar(
+        backgroundImage: AssetImage("assets/avatar.png"),
+      ),
+    );
   }
 
   Widget _buildHeaderProfile() {
-    return SizedBox();
+    return const SizedBox();
   }
 }
