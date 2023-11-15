@@ -38,6 +38,7 @@ class _ProfileTabState extends State<ProfileTab> with SingleTickerProviderStateM
 
   Widget _buildTabBarView() {
     return TabBarView(
+      controller: _tabController,
       children: [
         Container(color: Colors.green),
         Container(color: Colors.red),
